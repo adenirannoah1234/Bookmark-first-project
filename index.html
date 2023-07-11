@@ -66,6 +66,9 @@
                 </h1>
                 <p class="lead my-4 text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                 <a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+                <a href="#sidebar" class="d-block mt-3" data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">Explore my books
+
+                </a>
             </div>
             <div class="col-md-5 text-center d-none d-md-block">
                 <span class="nn" data-bs-placement="bottom" title="Book cover">
@@ -360,6 +363,62 @@
         </div>
     </div>
   </section>
+  <section class="bg-light">
+    <div class="container">
+        <div class="text-center">
+            <h2>Stay in the loop</h2>
+            <p class="lead">Get the latest updates as they happen...</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <p class="text-muted my-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea veniam accusamus tempore illo, tempora quas inventore consequuntur dolorem repellat quos eos sit cupiditate aut officiis pariatur repudiandae vitae commodi voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ratione facilis numquam at explicabo deleniti. Libero, id enim blanditiis sapiente doloribus in tempora inventore explicabo. Accusantium ipsum porro aspernatur cum.
+                </p>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">
+                    Register for updates
+                </button>
+            </div>
+        </div>
+    </div>
+  </section>
+  <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modal-title">Get the latest updates</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis mollitia accusamus, necessitatibus maiores labore quibusdam? Quo earum rerum accusamus eius! Asperiores eius porro dolorum expedita eos possimus? Praesentium, ipsa minima?</p>
+                <label for="modal-email" class="form-label">Your email address:</label>
+                <input type="email" class="form-control" id="modal-email" placeholder="e.g.adeniranexample.com">
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary"> Submit</button>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="sidebar-label">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="sidebar-label">My Other Books:</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere ipsa debitis, sunt hic, incidunt sed error dolores aliquid dolorum voluptatibus corrupti vitae? Molestias corporis tenetur corrupti ipsa, soluta veritatis quasi!</p>
+        <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="book-dropdown" data-bs-toggle="dropdown"> Choose a book title</button>
+            <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+                <li><a href="#" class="dropdown-item">Becoming a better version of yourself</a></li>
+                <li><a href="#" class="dropdown-item">The best frameworks</a></li>
+                <li><a href="#" class="dropdown-item">Learn the basic of Javascript</a></li>
+
+            </ul>
+
+        </div>
+    </div>
+
+  </div>
    
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
  <script>
